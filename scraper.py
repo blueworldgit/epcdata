@@ -76,7 +76,7 @@ def save_current_page():
                     
                     # Set folder paths based on these categories
                     global parent_folder, child_folder, myvarvalue, folder_path
-                    parent_folder = "LSFAM11C4RA133898"  # This seems to be hard-coded in your script
+                    parent_folder = "LSH14J7C3RV123225"  # This seems to be hard-coded in your script
                     child_folder = category.lower()  # e.g., "power transmission"
                     myvarvalue = subcategory.replace("/", "-").replace("\\", "-").replace("（", "(").replace("）", ")")  # sanitize filename
                     
